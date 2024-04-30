@@ -14,6 +14,7 @@
 ## Requirements
  The script only uses standard python modules so there is no need to install aditional modules.
  The script itself requires a Python interpreter to run. I normally run it in my IDE.
+ You might need to install shutil if it was not already installed.
  
 ## How to use
 Change the directory_path variable in the organizer.py script and then run the script anyway you see fit.
