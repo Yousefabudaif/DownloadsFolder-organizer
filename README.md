@@ -5,6 +5,18 @@
  The script is very easy to addapt to suit your needs, so feel free to tinquer with it.
  
  I recommend using .exe version of the script, which can easily be made with pyinstaller.
+ In order to make the .exe file, follow the following steps:
+ Install PyInstaller:
+ If you haven't installed PyInstaller yet, you can install it using pip:
+ pip install pyinstaller
+ Navigate to the directory containing your Python script:
+ Open a command prompt or terminal and navigate to the directory containing your Python script.
+ Create the executable:
+ Run the following command to create the executable:
+ pyinstaller your_script.py
+ Locate the executable:
+ After running the command, PyInstaller will create a dist directory in the same directory as your script. Inside the dist directory, you'll find the executable 
+ file with the same name as your script.
  I personnally put the .exe file in my startup folder so that it automaticly organizes my files when I log in on my computer (C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp).
  
  Based on suggestions, I made an exe version of the script which organizes the direcotry where the organize_local_directory.exe is located  so that it can easily be used on any folder.
